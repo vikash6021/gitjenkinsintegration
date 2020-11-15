@@ -8,6 +8,6 @@ public class DemoController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hi There changed again!";
+		return "Hi There changed again. Added webhook!";
 	}
 }
