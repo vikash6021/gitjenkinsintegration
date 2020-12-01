@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.example.springboot</groupId>
 	<artifactId>springbootdemo</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>springbootdemo</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -38,7 +38,7 @@
 
 	<scm>
 	    <developerConnection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</developerConnection>
-	    <tag>TESTTAG</tag>
+	    <tag>springbootdemo-0.0.1</tag>
   </scm>
 	<build>
 		<plugins>
