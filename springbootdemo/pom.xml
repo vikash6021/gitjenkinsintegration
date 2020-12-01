@@ -37,7 +37,7 @@
 	</dependencies>
 
 	<scm>
-	    <developerConnection>scm:git:https://github.com/vikash6021/gitjenkinsintegration/tree/master/springbootdemo/</developerConnection>
+	    <developerConnection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</developerConnection>
 	    <tag>springbootdemo-0.0.1</tag>
   </scm>
 	<build>
