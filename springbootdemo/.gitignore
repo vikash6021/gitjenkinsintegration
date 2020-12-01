@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+HELP.md
+mvnw
+mvnw.cmd
+demo/
+../.metadata/
+release.properties
