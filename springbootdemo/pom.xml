@@ -54,6 +54,14 @@
 		</site>
 	</distributionManagement> -->
 	
+	<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/vikash6021/gitjenkinsintegration</url>
+    </repository>
+  </distributionManagement>
+	
 	<scm>
 	    <connection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</connection>
 	    <developerConnection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</developerConnection>
