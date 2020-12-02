@@ -35,6 +35,25 @@
 			</exclusions>
 		</dependency>
 	</dependencies>
+	
+	<distributionManagement>
+		<site>
+			<id>github-project-site</id>
+			<name>GitHub Project Pages</name>
+			<url>gitsite:git:https://github.com/vikash6021/gitjenkinsintegration.git</url>
+			<!--
+			YOU MUST PUT THE FOLLOWING IN ~/.m2/settings.xml
+			
+			<servers>
+				<server>
+					<id>github-project-site</id>
+					<username>git</username>
+				</server>
+			</servers>
+			-->
+		</site>
+	</distributionManagement>
+	
 
 	<scm>
 	    <developerConnection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</developerConnection>
