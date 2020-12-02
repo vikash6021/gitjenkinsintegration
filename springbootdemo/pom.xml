@@ -36,12 +36,12 @@
 		</dependency>
 	</dependencies>
 	
-	<distributionManagement>
+	<!-- <distributionManagement>
 		<site>
 			<id>github-project-site</id>
 			<name>GitHub Project Pages</name>
 			<url>gitsite:git:https://github.com/vikash6021/gitjenkinsintegration.git</url>
-			<!--
+			
 			YOU MUST PUT THE FOLLOWING IN ~/.m2/settings.xml
 			
 			<servers>
@@ -50,15 +50,21 @@
 					<username>git</username>
 				</server>
 			</servers>
-			-->
+			
 		</site>
-	</distributionManagement>
+	</distributionManagement> -->
 	
-
 	<scm>
+	    <connection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</connection>
+	    <developerConnection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</developerConnection>
+	    <url>https://github.com/apache/maven-deploy-plugin/tree/${project.scm.tag}</url>
+	    <tag>HEAD</tag>
+	  </scm>
+
+	<!-- <scm>
 	    <developerConnection>scm:git:https://github.com/vikash6021/gitjenkinsintegration.git</developerConnection>
 	    <tag>springbootdemo-0.0.1</tag>
-  </scm>
+  </scm> -->
 	<build>
 		<plugins>
 			<plugin>
