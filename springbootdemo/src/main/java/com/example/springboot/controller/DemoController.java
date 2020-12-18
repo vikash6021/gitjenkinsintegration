@@ -8,6 +8,6 @@ public class DemoController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello there! I am started by jenkins CI/CD";
+		return "Hello there! I am built and deploy using CI/CD pipeline";
 	}
 }
