@@ -8,6 +8,6 @@ public class DemoController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "Hello there! App is built and started by jenkins using script";
+		return "Hello there! I am started by jenkins";
 	}
 }
